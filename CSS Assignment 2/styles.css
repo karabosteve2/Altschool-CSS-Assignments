@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 5px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 16px;
+    color: #333;
+}
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+.section {
+    background: #4a4a4a;
+    padding: 40px 20px;
+    color: white;
+    position: relative;
+}
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+}
+.banner {
+    background: gold;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-top: -30px;
+    position: relative;
+}
