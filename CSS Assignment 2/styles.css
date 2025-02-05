@@ -5,43 +5,52 @@ body {
     background-color: #f8f8f8;
 }
 .container {
-    max-width: 800px;
+    max-width: 1280px;
     margin: 50px auto;
     background: white;
     padding: 5px;
 }
 .title {
-    font-size: 24px;
+    font-size: 32px; /* Huckleberry Title */
     font-weight: bold;
+    margin-left: 200px; /*Position of the tittle*/ 
 }
 .subtitle {
-    font-size: 16px;
+    font-size: 20px;
+    padding: 1px;
     color: #333;
+    margin-left: 200px; 
 }
 .highlight {
     color: green;
     font-weight: bold;
 }
 .section {
-    background: #4a4a4a;
-    padding: 40px 20px;
+    background: #666666;
+    padding: 120px;
+    margin: auto;
     color: white;
     position: relative;
+    
 }
+
 .card {
     background: white;
     color: black;
-    padding: 20px;
+    padding: 10px; /*space between banner and white backgroud*/
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    margin: auto;
+    max-width: 808px;
+    padding-left: 25px; /* starting text point for White Backgroud Colour On Card*/
+    margin-left: 200px; 
+
 }
 .banner {
-    background: gold;
+    background: #FFBF00;
     padding: 10px;
     font-weight: bold;
     color: black;
     display: inline-block;
-    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left: -10px; 
     position: relative;
 }
