@@ -1,56 +1,82 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+body {margin: -40px;
+    font-family: 'Lato', sans-serif;
 }
+
 .container {
-    max-width: 1280px;
-    margin: 50px auto;
-    background: white;
-    padding: 5px;
+    width: 1280px;
+    margin: 0 auto;
 }
-.title {
-    font-size: 32px; /* Huckleberry Title */
-    font-weight: bold;
-    margin-left: 200px; /*Position of the tittle*/ 
-}
-.subtitle {
-    font-size: 20px;
-    padding: 1px;
-    color: #333;
-    margin-left: 200px; 
-}
-.highlight {
-    color: green;
-    font-weight: bold;
-}
-.section {
-    background: #666666;
-    padding: 120px;
-    margin: auto;
-    color: white;
+
+.header {
     position: relative;
-    
+    width: 1076px;
+    height: 280px;
+    background: #FFFFFF;
+    border-bottom: 8px solid #999999;
+    padding-left: 264px;
+    padding-top: 96px;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #000;
+}
+
+.header p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #000;
+}
+
+.highlight {
+    font-weight: 800;
+    color: #009966;
+}
+
+.main {
+    position: relative;
+    width: 1280px;
+    height: 400px;
+    background: #666666;
+    padding-top: 72px;
+    padding-left: 15px;
+    padding-right: 45px;
 }
 
 .card {
-    background: white;
-    color: black;
-    padding: 10px; /*space between banner and white backgroud*/
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    max-width: 808px;
-    padding-left: 25px; /* starting text point for White Backgroud Colour On Card*/
-    margin-left: 200px; 
-
-}
-.banner {
-    background: #FFBF00;
-    padding: 10px;
-    font-weight: bold;
-    color: black;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: -10px; 
     position: relative;
+    width: 800px;
+    height: 140px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 90px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-bottom: 8px solid #999999;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.banner {
+    position: absolute;
+    width: 355px;
+    height: 40px;
+    background: #FFBF00;
+    border-bottom: 8px solid #CC9900;
+    top: 10px;
+    left: -10px;
+    padding: 10px ;
+    padding-left: 19px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+}
+
+.card p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #000;
+    margin-top: 0px;
+}
+
+
